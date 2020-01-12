@@ -1,0 +1,38 @@
+.form-control {
+
+    background-color: #eee !important;
+}
+
+body {
+    padding-top: 70px;
+}
+
+iframe, object, embed{
+    max-width: 100%;
+}
+
+.wide-size {
+    height: 400px;
+}
+
+.font-adjust {
+    font-size: 16px !important;
+}
+
+.box-layout {
+    background-color: #E0FFFF;
+    padding: 10px;
+    margin-top: -19px;
+}
+
+.panel-title {
+    font-size: 32px;
+}
+
+.space {
+    padding: 20px;
+}
+
+.btn {
+    margin-bottom: 9px;
+}
