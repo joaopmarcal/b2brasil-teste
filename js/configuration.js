@@ -1,14 +1,15 @@
+//efeito responsavel por fazer a mascara no telefone
 $(document).ready(function () {
-    $("#exampleInputTelephone").mask("(00) 0000-00009");
-    $("#exampleInputTelephone").blur(function (event) {
+    $("#InputTelephone").mask("(00) 0000-00009");
+    $("#InputTelephone").blur(function (event) {
         if ($(this).val().length == 15){
-            $("#exampleInputTelephone").mask("(00) 00000-0009");
+            $("#InputTelephone").mask("(00) 00000-0009");
         } else {
-            $("#exampleInputTelephone").mask("(00) 0000-00009");
+            $("#InputTelephone").mask("(00) 0000-00009");
         }
     })
 })
-
+// código responsavel por fazer o botão tab
 $(document).ready(function(){
     $("#button-one").click(function(){
         $(this).attr("class", "btn btn-primary");
@@ -39,6 +40,7 @@ $(document).ready(function(){
         $("#box-three").attr("class", "show");
     });
 });
+//botão load da seção 2
 $(document).ready(function(){
     $("#load").click(function(){
         $(this).attr("class", "hide");
